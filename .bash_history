@@ -339,3 +339,119 @@ nano /etc/apache2/ports.confnano /etc/apache2/ports.conf
 docker exec -ti kirbycms bash
 docker exec -ti kirbycms bash
 docker exec -ti kirbycms bash
+docker ps -a
+docker stop kirbycms
+docker rm  kirbycms
+docker ps -a
+docker run --name kirbycms --restart always -v /home/paginas/kirby/:/var/www/html/kirby/ -p 8081:8081 -p 443:443 -dti ubuntu
+docker exec -ti kirbycms bashdocker exec -ti kirbycms bash
+docker exec -ti kirbycms bash
+cd /home/paginas/kirby/
+git clone --recursive https://github.com/getkirby/starterkit.git 
+docker exec -ti kirbycms bash
+chmod  -R 777 /home/paginas/
+docker exec -ti kirbycms bash
+docker ps -a 
+docker exec -it kirbycms
+docker exec -ti kirbycms
+docker exec -ti kirbycms bash
+git init
+git status
+git add -A
+git commit -m "first commit" 
+git remote add origin https://github.com/kristyM6/CMS-kirby.git
+git push -u origin master
+git status
+docker exec -ti kirbycms bash
+chmod  -R 777 /home/paginas/
+docker exec -ti kirbycms bash
+service apache2 restart
+docker exec -ti kirbycms bash
+chmod  -R 777 /home/paginas/
+service apache2 restart
+docker exec -ti kirbycms bash
+RewriteCond %{HTTPS} off
+docker exec -ti kirbycms bash
+docker exec -ti kirbycms bash
+chmod  -R 777 /home/paginas/
+nano /etc/apache2/sites-available/kirby.conf
+docker exec -ti kirbycms bash
+chmod  -R 777 /home/paginas/
+clear
+docker ps -a
+docker images
+docker stop kirbycms 
+clear
+docker run -it -d --name ghostcms -v /home/proyecto/web/ghost:/var/www/html/ -p 80:80 -p 443:443  ghost
+clear
+docker ps -a
+docker start ghost
+docker start ghostcms
+docker stop ghostcms
+docker rm ghostcms
+clear
+docker ps -a
+ll
+docker /home
+cd /home
+ls
+cd proyecto
+ls
+cd web
+ls
+clear
+ls
+cd /
+docker run -it -d --name ghostcms -v /home/proyecto/web/ghost:/var/www/html/ -p 80:80 -p 443:443  ghost
+docker rm ghostcms 
+clear
+docker ps -a
+docker start kirbycms 
+docker exec -it kirbycms bash
+clear
+docker ps -a
+docker exec -ti kirbycms bash
+docker ps -a
+cd /home/paginas/kirby/
+ls
+cd kirby
+ls
+cd..
+cd ..
+cd..
+cd ..
+cd /home/paginas/kirby/site/blueprints/users/editor.yml
+cd site/blueprints/users/editor.yml
+cd editor.yml
+cd /home/paginas/kirby/
+ls
+cd kirby
+ls
+cd config
+ls
+cd .. 
+ls
+cd dependencies
+ls
+cd ..
+ls
+cd content
+ls
+docker ps -a 
+docker exec -ti ubuntu-cert bash 
+docker ps -a 
+docker start ubuntu-cert 
+docker exec -ti ubuntu-cert bash 
+docker ps -a
+docker start ubuntu-cert
+docker ps -a
+docker ps
+docker exec -it ubuntu-cert stop
+docker ps -a
+docker exec -it kirbycms bash 
+docker ps -a
+docker stop ubuntu-cert
+docker ps -a
+docker exec -it kirbycms bash 
+docker exec -ti ubuntu-cert bash 
+docker exec -it kirbycms bash 
